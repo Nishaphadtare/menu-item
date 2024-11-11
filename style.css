@@ -1,0 +1,88 @@
+
+/* Bootstrap Icon CDN Link */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* body{
+    background-image: url(assets/devloper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* Main Devision */
+.menu-division{
+    width: 370px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin: 40px auto;
+}
+#user-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#user-info, img{
+    width: 70px;
+    height: 60px;
+    border-radius: 190px;
+    padding-left: 8px;
+    padding-top: 3px;
+    
+}
+#user-name h3{
+ margin: 0px;
+ display: flex;
+}
+#user-name p{
+    margin: 0px;
+   }
+/* Item Image */
+#item-photo img{
+    width: 350px;
+    height: 250px;
+    padding: 8px;
+    /* padding-top: 35px; */
+    border-radius: 20px;
+    /* position: relative; */  
+}
+#best-seller{
+    color: rgb(1, 92, 92);
+    font-weight: bolder;
+    background-color: rgb(206, 211, 223);
+    padding: 3px 5px 5px 3px;
+    border-radius: 8px;
+    border: 1px solid rgb(238, 186, 90);
+    position: absolute;
+    top: 130px;
+    left: 600px;
+
+}
+#must-try{
+    background-color: rgb(86, 207, 207);
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 280px;
+    bottom: 50px;
+    padding: 3px 6px 3px 6px;
+}
+#item-desc{
+    padding: 6px;
+}
+#item-desc h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#item-desc p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* card-buttons */
+#card-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
